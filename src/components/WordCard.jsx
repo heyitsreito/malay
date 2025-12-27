@@ -3,6 +3,10 @@ import { useState } from 'react'
 function WordCard({ word }) {
   const [isFormal, setIsFormal] = useState(true)
 
+  if (!word) {
+    return null
+  }
+
   const speakText = (text) => {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(text)
@@ -14,12 +18,21 @@ function WordCard({ word }) {
     }
   }
 
-  const currentWord = isFormal ? word.formal : word.informal
+  const currentWord = isFormal ? (word.formal || '') : (word.informal || '')
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-2xl font-bold text-indigo-600">{currentWord}</h2>
+        <div className="flex-1">
+          {word.category && (
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded">
+                {word.category}
+              </span>
+            </div>
+          )}
+          <h2 className="text-2xl font-bold text-indigo-600">{currentWord}</h2>
+        </div>
         <button
           onClick={() => speakText(currentWord)}
           className="bg-blue-500 hover:bg-blue-600 text-white rounded-full p-2 transition-colors"
@@ -40,7 +53,7 @@ function WordCard({ word }) {
         </button>
       </div>
 
-      <p className="text-gray-600 mb-4">{word.meaning}</p>
+      <p className="text-gray-600 mb-4">{word.meaning || ''}</p>
 
       <div className="mb-4">
         <label className="flex items-center cursor-pointer">
@@ -70,7 +83,7 @@ function WordCard({ word }) {
 
       <div className="space-y-3">
         <h3 className="font-semibold text-gray-800 mb-2">例文:</h3>
-        {word.examples.map((example, index) => (
+        {word.examples && Array.isArray(word.examples) ? word.examples.map((example, index) => (
           <div key={index} className="bg-gray-50 rounded-lg p-4">
             <div className="flex items-start justify-between mb-2">
               <p className="text-indigo-700 font-medium flex-1">
@@ -97,7 +110,9 @@ function WordCard({ word }) {
             </div>
             <p className="text-gray-600 text-sm">{example.japanese}</p>
           </div>
-        ))}
+        )) : (
+          <p className="text-gray-500 text-sm">例文がありません</p>
+        )}
       </div>
     </div>
   )

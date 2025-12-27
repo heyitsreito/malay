@@ -4,6 +4,7 @@ export const wordData = [
     formal: 'makanan',
     informal: 'makan',
     meaning: '食べ物',
+    category: '名詞',
     examples: [
       {
         malay: 'Tak tau nak makan apa.',
@@ -20,6 +21,7 @@ export const wordData = [
     formal: 'hendak',
     informal: 'nak',
     meaning: '〜したい',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak gi pasar tak?',
@@ -36,6 +38,7 @@ export const wordData = [
     formal: 'sahaja',
     informal: 'je',
     meaning: '〜だけ',
+    category: '助詞',
     examples: [
       {
         malay: 'Nak satu je.',
@@ -52,6 +55,7 @@ export const wordData = [
     formal: 'saya',
     informal: 'aku',
     meaning: '私',
+    category: '代名詞',
     examples: [
       {
         malay: 'Aku tak faham la.',
@@ -68,6 +72,7 @@ export const wordData = [
     formal: 'anda',
     informal: 'awak',
     meaning: 'あなた',
+    category: '代名詞',
     examples: [
       {
         malay: 'Awak dah makan ke belum?',
@@ -84,6 +89,7 @@ export const wordData = [
     formal: 'dia',
     informal: 'die',
     meaning: '彼/彼女',
+    category: '代名詞',
     examples: [
       {
         malay: 'Die dah balik rumah.',
@@ -100,6 +106,7 @@ export const wordData = [
     formal: 'ini',
     informal: 'ni',
     meaning: 'これ',
+    category: '代名詞',
     examples: [
       {
         malay: 'Ni berapa harga?',
@@ -116,6 +123,7 @@ export const wordData = [
     formal: 'itu',
     informal: 'tu',
     meaning: 'あれ',
+    category: '代名詞',
     examples: [
       {
         malay: 'Tu tempat mana?',
@@ -132,6 +140,7 @@ export const wordData = [
     formal: 'tidak',
     informal: 'tak',
     meaning: '〜ない',
+    category: '助詞',
     examples: [
       {
         malay: 'Tak payah la.',
@@ -148,6 +157,7 @@ export const wordData = [
     formal: 'sudah',
     informal: 'dah',
     meaning: 'もう/既に',
+    category: '助詞',
     examples: [
       {
         malay: 'Dah makan ke belum?',
@@ -164,6 +174,7 @@ export const wordData = [
     formal: 'akan',
     informal: 'nanti',
     meaning: '〜するつもり/後で',
+    category: '助詞',
     examples: [
       {
         malay: 'Nanti kita gi makan.',
@@ -180,6 +191,7 @@ export const wordData = [
     formal: 'boleh',
     informal: 'boleh',
     meaning: 'できる/〜してもいい',
+    category: '動詞',
     examples: [
       {
         malay: 'Boleh tak tolong aku?',
@@ -196,6 +208,7 @@ export const wordData = [
     formal: 'mahu',
     informal: 'nak',
     meaning: '欲しい/〜したい',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak beli apa?',
@@ -212,6 +225,7 @@ export const wordData = [
     formal: 'pergi',
     informal: 'gi',
     meaning: '行く',
+    category: '動詞',
     examples: [
       {
         malay: 'Gi mana tadi?',
@@ -228,6 +242,7 @@ export const wordData = [
     formal: 'datang',
     informal: 'dtg',
     meaning: '来る',
+    category: '動詞',
     examples: [
       {
         malay: 'Bila awak dtg?',
@@ -244,6 +259,7 @@ export const wordData = [
     formal: 'makan',
     informal: 'makan',
     meaning: '食べる',
+    category: '動詞',
     examples: [
       {
         malay: 'Dah makan ke belum?',
@@ -260,6 +276,7 @@ export const wordData = [
     formal: 'minum',
     informal: 'minum',
     meaning: '飲む',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak minum air kosong tak?',
@@ -276,6 +293,7 @@ export const wordData = [
     formal: 'besar',
     informal: 'besar',
     meaning: '大きい',
+    category: '形容詞',
     examples: [
       {
         malay: 'Ni besar sangat!',
@@ -292,6 +310,7 @@ export const wordData = [
     formal: 'kecil',
     informal: 'kecil',
     meaning: '小さい',
+    category: '形容詞',
     examples: [
       {
         malay: 'Kecil je ni.',
@@ -308,6 +327,7 @@ export const wordData = [
     formal: 'baik',
     informal: 'baik',
     meaning: '良い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Baik, nanti aku dtg.',
@@ -324,6 +344,7 @@ export const wordData = [
     formal: 'lihat',
     informal: 'tgk',
     meaning: '見る',
+    category: '動詞',
     examples: [
       {
         malay: 'Tgk tu, cantik tak?',
@@ -340,6 +361,7 @@ export const wordData = [
     formal: 'beli',
     informal: 'beli',
     meaning: '買う',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak beli apa kat pasar?',
@@ -356,6 +378,7 @@ export const wordData = [
     formal: 'jual',
     informal: 'jual',
     meaning: '売る',
+    category: '動詞',
     examples: [
       {
         malay: 'Jual berapa?',
@@ -372,6 +395,7 @@ export const wordData = [
     formal: 'duduk',
     informal: 'duduk',
     meaning: '座る',
+    category: '動詞',
     examples: [
       {
         malay: 'Duduk sini boleh tak?',
@@ -388,6 +412,7 @@ export const wordData = [
     formal: 'bangun',
     informal: 'bangun',
     meaning: '起きる/立つ',
+    category: '動詞',
     examples: [
       {
         malay: 'Bangun la, dah siang!',
@@ -404,6 +429,7 @@ export const wordData = [
     formal: 'tidur',
     informal: 'tido',
     meaning: '寝る',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak tido la, penat sangat.',
@@ -420,6 +446,7 @@ export const wordData = [
     formal: 'buka',
     informal: 'buka',
     meaning: '開ける',
+    category: '動詞',
     examples: [
       {
         malay: 'Buka pintu sikit boleh tak?',
@@ -436,6 +463,7 @@ export const wordData = [
     formal: 'tutup',
     informal: 'tutup',
     meaning: '閉める',
+    category: '動詞',
     examples: [
       {
         malay: 'Tutup la, sejuk sangat.',
@@ -452,6 +480,7 @@ export const wordData = [
     formal: 'ambil',
     informal: 'ambil',
     meaning: '取る',
+    category: '動詞',
     examples: [
       {
         malay: 'Ambil je la, banyak ni.',
@@ -468,6 +497,7 @@ export const wordData = [
     formal: 'beri',
     informal: 'bagi',
     meaning: '与える',
+    category: '動詞',
     examples: [
       {
         malay: 'Bagi sikit boleh tak?',
@@ -484,6 +514,7 @@ export const wordData = [
     formal: 'tolong',
     informal: 'tolong',
     meaning: '手伝う',
+    category: '動詞',
     examples: [
       {
         malay: 'Tolong sikit boleh tak?',
@@ -500,6 +531,7 @@ export const wordData = [
     formal: 'cari',
     informal: 'cari',
     meaning: '探す',
+    category: '動詞',
     examples: [
       {
         malay: 'Cari apa tu?',
@@ -516,6 +548,7 @@ export const wordData = [
     formal: 'panas',
     informal: 'panas',
     meaning: '暑い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Panas gila hari ni!',
@@ -532,6 +565,7 @@ export const wordData = [
     formal: 'sejuk',
     informal: 'sejuk',
     meaning: '寒い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Sejuk sangat dalam ni.',
@@ -548,6 +582,7 @@ export const wordData = [
     formal: 'tinggi',
     informal: 'tinggi',
     meaning: '高い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Tinggi sangat harga ni!',
@@ -564,6 +599,7 @@ export const wordData = [
     formal: 'murah',
     informal: 'murah',
     meaning: '安い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Murah je ni, beli la.',
@@ -580,6 +616,7 @@ export const wordData = [
     formal: 'sedap',
     informal: 'sedap',
     meaning: '美味しい',
+    category: '形容詞',
     examples: [
       {
         malay: 'Sedap gila ni!',
@@ -596,6 +633,7 @@ export const wordData = [
     formal: 'penat',
     informal: 'penat',
     meaning: '疲れた',
+    category: '形容詞',
     examples: [
       {
         malay: 'Penat sangat hari ni.',
@@ -612,6 +650,7 @@ export const wordData = [
     formal: 'lapar',
     informal: 'lapar',
     meaning: 'お腹が空いた',
+    category: '形容詞',
     examples: [
       {
         malay: 'Lapar sangat, nak makan.',
@@ -628,6 +667,7 @@ export const wordData = [
     formal: 'dahaga',
     informal: 'dahaga',
     meaning: '喉が渇いた',
+    category: '形容詞',
     examples: [
       {
         malay: 'Dahaga sangat, nak minum.',
@@ -644,6 +684,7 @@ export const wordData = [
     formal: 'cepat',
     informal: 'cepat',
     meaning: '速い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Cepat sangat dia gi.',
@@ -660,6 +701,7 @@ export const wordData = [
     formal: 'lambat',
     informal: 'lambat',
     meaning: '遅い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Lambat sangat, dah lambat!',
@@ -676,6 +718,7 @@ export const wordData = [
     formal: 'baru',
     informal: 'baru',
     meaning: '新しい',
+    category: '形容詞',
     examples: [
       {
         malay: 'Baru je beli ni.',
@@ -692,6 +735,7 @@ export const wordData = [
     formal: 'lama',
     informal: 'lama',
     meaning: '古い/長い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Lama sangat tunggu ni.',
@@ -708,6 +752,7 @@ export const wordData = [
     formal: 'cantik',
     informal: 'cantik',
     meaning: '綺麗',
+    category: '形容詞',
     examples: [
       {
         malay: 'Cantik sangat ni!',
@@ -724,6 +769,7 @@ export const wordData = [
     formal: 'siapa',
     informal: 'siapa',
     meaning: '誰',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Siapa tu?',
@@ -740,6 +786,7 @@ export const wordData = [
     formal: 'apa',
     informal: 'apa',
     meaning: '何',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Apa ni?',
@@ -756,6 +803,7 @@ export const wordData = [
     formal: 'mana',
     informal: 'mana',
     meaning: 'どこ',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Mana awak?',
@@ -772,6 +820,7 @@ export const wordData = [
     formal: 'bila',
     informal: 'bila',
     meaning: 'いつ',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Bila awak dtg?',
@@ -788,6 +837,7 @@ export const wordData = [
     formal: 'kenapa',
     informal: 'kenapa',
     meaning: 'なぜ',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Kenapa lambat sangat?',
@@ -804,6 +854,7 @@ export const wordData = [
     formal: 'berapa',
     informal: 'berapa',
     meaning: 'いくら/いくつ',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Berapa harga ni?',
@@ -820,6 +871,7 @@ export const wordData = [
     formal: 'bagaimana',
     informal: 'macam mana',
     meaning: 'どうやって',
+    category: '疑問詞',
     examples: [
       {
         malay: 'Macam mana nak gi sana?',
@@ -836,6 +888,7 @@ export const wordData = [
     formal: 'kita',
     informal: 'kita',
     meaning: '私たち',
+    category: '代名詞',
     examples: [
       {
         malay: 'Kita gi makan la.',
@@ -852,6 +905,7 @@ export const wordData = [
     formal: 'mereka',
     informal: 'diorang',
     meaning: '彼ら',
+    category: '代名詞',
     examples: [
       {
         malay: 'Diorang dah gi.',
@@ -868,6 +922,7 @@ export const wordData = [
     formal: 'belum',
     informal: 'belum',
     meaning: 'まだ',
+    category: '助詞',
     examples: [
       {
         malay: 'Dah makan ke belum?',
@@ -884,6 +939,7 @@ export const wordData = [
     formal: 'juga',
     informal: 'gak',
     meaning: 'も/〜も',
+    category: '助詞',
     examples: [
       {
         malay: 'Aku nak gak.',
@@ -900,6 +956,7 @@ export const wordData = [
     formal: 'pun',
     informal: 'pun',
     meaning: 'も/〜も',
+    category: '助詞',
     examples: [
       {
         malay: 'Aku pun nak.',
@@ -916,6 +973,7 @@ export const wordData = [
     formal: 'dan',
     informal: 'dengan',
     meaning: 'と/そして',
+    category: '助詞',
     examples: [
       {
         malay: 'Aku dengan dia gi pasar.',
@@ -932,6 +990,7 @@ export const wordData = [
     formal: 'tandas',
     informal: 'tandas',
     meaning: 'トイレ',
+    category: '名詞',
     examples: [
       {
         malay: 'Mana tandas?',
@@ -948,6 +1007,7 @@ export const wordData = [
     formal: 'wang',
     informal: 'duit',
     meaning: 'お金',
+    category: '名詞',
     examples: [
       {
         malay: 'Ada duit tak?',
@@ -964,6 +1024,7 @@ export const wordData = [
     formal: 'kereta',
     informal: 'kereta',
     meaning: '車',
+    category: '名詞',
     examples: [
       {
         malay: 'Gi mana pakai kereta?',
@@ -980,6 +1041,7 @@ export const wordData = [
     formal: 'kedai',
     informal: 'kedai',
     meaning: '店',
+    category: '名詞',
     examples: [
       {
         malay: 'Kedai mana nak gi?',
@@ -996,6 +1058,7 @@ export const wordData = [
     formal: 'pasar',
     informal: 'pasar',
     meaning: '市場',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak gi pasar tak?',
@@ -1012,6 +1075,7 @@ export const wordData = [
     formal: 'rumah',
     informal: 'rumah',
     meaning: '家',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak balik rumah la.',
@@ -1028,6 +1092,7 @@ export const wordData = [
     formal: 'masa',
     informal: 'masa',
     meaning: '時間',
+    category: '名詞',
     examples: [
       {
         malay: 'Bila masa nak gi?',
@@ -1044,6 +1109,7 @@ export const wordData = [
     formal: 'hari',
     informal: 'hari',
     meaning: '日',
+    category: '名詞',
     examples: [
       {
         malay: 'Hari ni panas sangat!',
@@ -1060,6 +1126,7 @@ export const wordData = [
     formal: 'malam',
     informal: 'malam',
     meaning: '夜',
+    category: '名詞',
     examples: [
       {
         malay: 'Malam ni nak gi mana?',
@@ -1076,6 +1143,7 @@ export const wordData = [
     formal: 'pagi',
     informal: 'pagi',
     meaning: '朝',
+    category: '名詞',
     examples: [
       {
         malay: 'Pagi ni bangun lambat.',
@@ -1092,6 +1160,7 @@ export const wordData = [
     formal: 'air',
     informal: 'air',
     meaning: '水',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak minum air tak?',
@@ -1108,6 +1177,7 @@ export const wordData = [
     formal: 'balik',
     informal: 'balik',
     meaning: '帰る',
+    category: '動詞',
     examples: [
       {
         malay: 'Nak balik rumah la.',
@@ -1124,6 +1194,7 @@ export const wordData = [
     formal: 'tahu',
     informal: 'tau',
     meaning: '知る/分かる',
+    category: '動詞',
     examples: [
       {
         malay: 'Tak tau la.',
@@ -1140,6 +1211,7 @@ export const wordData = [
     formal: 'faham',
     informal: 'faham',
     meaning: '理解する',
+    category: '動詞',
     examples: [
       {
         malay: 'Faham ke tak?',
@@ -1156,6 +1228,7 @@ export const wordData = [
     formal: 'tunggu',
     informal: 'tunggu',
     meaning: '待つ',
+    category: '動詞',
     examples: [
       {
         malay: 'Tunggu sekejap je.',
@@ -1172,6 +1245,7 @@ export const wordData = [
     formal: 'pakai',
     informal: 'pakai',
     meaning: '使う/着る',
+    category: '動詞',
     examples: [
       {
         malay: 'Pakai apa ni?',
@@ -1188,6 +1262,7 @@ export const wordData = [
     formal: 'buat',
     informal: 'buat',
     meaning: '作る/する',
+    category: '動詞',
     examples: [
       {
         malay: 'Buat apa ni?',
@@ -1204,6 +1279,7 @@ export const wordData = [
     formal: 'suka',
     informal: 'suka',
     meaning: '好き',
+    category: '動詞',
     examples: [
       {
         malay: 'Suka sangat ni!',
@@ -1220,6 +1296,7 @@ export const wordData = [
     formal: 'sayang',
     informal: 'sayang',
     meaning: '愛する/大切',
+    category: '動詞',
     examples: [
       {
         malay: 'Sayang sangat!',
@@ -1236,6 +1313,7 @@ export const wordData = [
     formal: 'mahal',
     informal: 'mahal',
     meaning: '高い（値段）',
+    category: '形容詞',
     examples: [
       {
         malay: 'Mahal sangat ni!',
@@ -1252,6 +1330,7 @@ export const wordData = [
     formal: 'senang',
     informal: 'senang',
     meaning: '簡単/楽',
+    category: '形容詞',
     examples: [
       {
         malay: 'Senang je ni!',
@@ -1268,6 +1347,7 @@ export const wordData = [
     formal: 'banyak',
     informal: 'banyak',
     meaning: 'たくさん',
+    category: '形容詞',
     examples: [
       {
         malay: 'Banyak sangat!',
@@ -1284,6 +1364,7 @@ export const wordData = [
     formal: 'sikit',
     informal: 'sikit',
     meaning: '少し',
+    category: '助詞',
     examples: [
       {
         malay: 'Bagi sikit je.',
@@ -1300,6 +1381,7 @@ export const wordData = [
     formal: 'sangat',
     informal: 'sangat',
     meaning: 'とても',
+    category: '助詞',
     examples: [
       {
         malay: 'Sangat sedap ni!',
@@ -1316,6 +1398,7 @@ export const wordData = [
     formal: 'gila',
     informal: 'gila',
     meaning: 'めちゃくちゃ',
+    category: '助詞',
     examples: [
       {
         malay: 'Sedap gila!',
@@ -1332,6 +1415,7 @@ export const wordData = [
     formal: 'betul',
     informal: 'betul',
     meaning: '正しい/本当',
+    category: '形容詞',
     examples: [
       {
         malay: 'Betul ke?',
@@ -1348,6 +1432,7 @@ export const wordData = [
     formal: 'salah',
     informal: 'salah',
     meaning: '間違い',
+    category: '形容詞',
     examples: [
       {
         malay: 'Salah la tu.',
@@ -1364,6 +1449,7 @@ export const wordData = [
     formal: 'jangan',
     informal: 'jangan',
     meaning: '〜しないで',
+    category: '助詞',
     examples: [
       {
         malay: 'Jangan la!',
@@ -1380,6 +1466,7 @@ export const wordData = [
     formal: 'mesti',
     informal: 'mesti',
     meaning: '〜しなければならない',
+    category: '助詞',
     examples: [
       {
         malay: 'Mesti gi la.',
@@ -1396,6 +1483,7 @@ export const wordData = [
     formal: 'atau',
     informal: 'atau',
     meaning: 'または',
+    category: '助詞',
     examples: [
       {
         malay: 'Nak ni atau tu?',
@@ -1412,6 +1500,7 @@ export const wordData = [
     formal: 'tapi',
     informal: 'tapi',
     meaning: 'しかし',
+    category: '助詞',
     examples: [
       {
         malay: 'Nak gi, tapi penat.',
@@ -1428,6 +1517,7 @@ export const wordData = [
     formal: 'sebab',
     informal: 'sebab',
     meaning: 'なぜなら',
+    category: '助詞',
     examples: [
       {
         malay: 'Tak gi sebab penat.',
@@ -1444,6 +1534,7 @@ export const wordData = [
     formal: 'telefon',
     informal: 'fon',
     meaning: '電話',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak call awak nanti.',
@@ -1460,6 +1551,7 @@ export const wordData = [
     formal: 'bas',
     informal: 'bas',
     meaning: 'バス',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak naik bas ke?',
@@ -1476,6 +1568,7 @@ export const wordData = [
     formal: 'jalan',
     informal: 'jalan',
     meaning: '道/歩く',
+    category: '名詞',
     examples: [
       {
         malay: 'Jalan kaki je la.',
@@ -1492,6 +1585,7 @@ export const wordData = [
     formal: 'kawan',
     informal: 'kawan',
     meaning: '友達',
+    category: '名詞',
     examples: [
       {
         malay: 'Kawan awak mana?',
@@ -1508,6 +1602,7 @@ export const wordData = [
     formal: 'kerja',
     informal: 'kerja',
     meaning: '仕事',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak gi kerja la.',
@@ -1524,6 +1619,7 @@ export const wordData = [
     formal: 'sekolah',
     informal: 'sekolah',
     meaning: '学校',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak gi sekolah ke?',
@@ -1540,6 +1636,7 @@ export const wordData = [
     formal: 'hospital',
     informal: 'hospital',
     meaning: '病院',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak gi hospital ke?',
@@ -1556,6 +1653,7 @@ export const wordData = [
     formal: 'restoran',
     informal: 'restoran',
     meaning: 'レストラン',
+    category: '名詞',
     examples: [
       {
         malay: 'Nak gi restoran mana?',
@@ -1572,6 +1670,7 @@ export const wordData = [
     formal: 'baju',
     informal: 'baju',
     meaning: '服',
+    category: '名詞',
     examples: [
       {
         malay: 'Baju ni cantik tak?',
@@ -1588,6 +1687,7 @@ export const wordData = [
     formal: 'terima kasih',
     informal: 'tq',
     meaning: 'ありがとう',
+    category: '名詞',
     examples: [
       {
         malay: 'Tq banyak-banyak!',
